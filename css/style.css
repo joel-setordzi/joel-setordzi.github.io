@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+header {
+    margin-top: 35px;
+}
+
+h1 {
+    font-size: 3.125rem;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 2.625rem;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+p {
+    font-size: 1.3125rem;
+    color: gray;
+    margin-bottom: 25px;
+}
+
+a {
+    color: aquamarine;
+}
+
+footer {
+    text-align: right;
+    color: gray;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
